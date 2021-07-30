@@ -1,0 +1,137 @@
+body{
+    width: 1000px;
+    font-family: Nunito;
+    margin: 0 auto;
+    position: relative;
+}
+
+#bodyBg{
+    background-color: #F7DEA6;
+    width: 278px;
+    height: 388px;
+    position: absolute;
+    left: 0;
+    top: 126px;
+    z-index: -1;
+    border-bottom-left-radius: 120px;
+    border-top-right-radius: 120px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+   
+ 
+}
+
+header #logo{
+    display: grid;
+    width:250px;
+    align-content: center;
+    grid-template-columns: 1fr 4fr;
+}
+
+header #logo div{
+    
+    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+   
+    color: #3E3F43;
+
+}
+header #logo img{
+    display: block;
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+  
+}
+
+header nav #lineabout{
+    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    display: grid;
+    align-content: center;
+    grid-template-columns:2fr 4fr;
+    margin: 0;
+    padding: 0;
+    
+}
+header nav #lineabout hr{
+    
+    width: 316px;
+    height: 0px;
+   
+    
+    border: 1px solid #000000;
+}
+
+header nav #lineabout div{ 
+
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: left;
+    
+    color: rgba(34, 34, 34, 0.1);
+
+}
+
+section{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+}
+
+section #woods {
+    width: 450px;
+  padding-top: 100px;
+ padding-left: 20px;
+ 
+}
+
+section article  {
+    width: 450px;
+    padding-top: 100px;
+    padding-left: 20px;
+
+}
+
+body > section > article >div> h1{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    
+    color: #3E3F43;
+}
+body > section > article>div>  h3{
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+
+color: #000000;
+}
+ 
+
+
+
+
+
+/* test github bot 2*/
